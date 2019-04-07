@@ -69,7 +69,7 @@ html, body {
 }
 body {
 	background: #14181E;
-	font-family: "merriweather-regular", serif;
+	font-family: serif;
 	font-size: 1.6rem;
 	line-height: 3rem;
 	color: #737373;
@@ -93,7 +93,7 @@ a:hover, a:focus {
 }
 
 h1, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
-	font-family: "raleway-bold", sans-serif;
+	font-family: sans-serif;
 	color: #252525;
 	font-style: normal;
 	text-rendering: optimizeLegibility;	
@@ -101,7 +101,7 @@ h1, h3, h4, h5, h6, .h01, .h02, .h03, .h04, .h05, .h06 {
 
 h2 {
 	color:#FFFFFF;
-	font-family: "raleway-bold", sans-serif;
+	font-family: sans-serif;
 	font-style: normal;
 	text-rendering: optimizeLegibility;
 	margin-bottom: 2.1rem;
@@ -110,7 +110,7 @@ h3, .h03, h4, .h04 {
 	margin-bottom: 1.8rem;
 }
 h5, .h05, h6, .h06 {
-	font-family: "raleway-heavy";
+	font-family: sans-serif;
 	margin-bottom: 1.2rem;
 }
 
@@ -155,7 +155,7 @@ p img {
 	margin: 0;
 }
 p.lead {
-	font-family: "merriweather-light", serif;
+	font-family: serif;
 	font-size: 1.8rem;
 	line-height: 1.5;
 	color: #737373;
@@ -178,10 +178,12 @@ em, i, strong, b {
 	font-weight: normal;
 }
 em, i {
-	font-family: "merriweather-italic", serif;
+	font-family: serif;
+	font-style: italic;
 }
 strong, b {
-	font-family: "merriweather-bold", serif;
+	font-family: serif;
+	font-weight: 1000;
 }
 small {
 	font-size: 1.1rem;
@@ -224,14 +226,14 @@ blockquote cite a, blockquote cite a:visited {
 	border: none;
 }
 abbr {
-	font-family: "merriweather-bold", serif;
+	font-family: serif;
 	font-variant: small-caps;
 	text-transform: lowercase;
 	letter-spacing: .05rem;
 	color: #8d8d8d;
 }
 var, kbd, samp, code, pre {
-	font-family: Consolas, "Andale Mono", Courier, "Courier New", monospace;
+	font-family: Consolas, Courier, monospace;
 }
 pre {
 	padding: 2.4rem 3rem 3rem;
@@ -333,7 +335,7 @@ table {
 	border-width: 0;
 	width: 100%;
 	max-width: 100%;
-	font-family: "raleway-regular", sans-serif;
+	font-family: sans-serif;
 }
 th, td {
 	padding: 1.5rem 3rem;
@@ -342,7 +344,7 @@ th, td {
 }
 th {
 	color: #252525;
-	font-family: "raleway-bold", sans-serif;
+	font-family: sans-serif;
 }
 td {
 	line-height: 1.5;
@@ -511,7 +513,7 @@ select {
 	outline: none;
 	vertical-align: middle;
 	color: #737373;
-	font-family: "merriweather-regular", sans-serif;
+	font-family: sans-serif;
 	font-size: 1.5rem;
 	line-height: 3rem;
 	border-radius: 3px;
@@ -582,7 +584,7 @@ select:focus {
 	border: 1px solid #d2fef9;
 }
 label, legend {
-	font-family: "merriweather-bold", sans-serif;
+	font-family: sans-serif;
 	font-size: 1.4rem;
 	margin-bottom: .6rem;
 	color: #404040;
@@ -632,7 +634,7 @@ input[type="submit"],
 input[type="reset"],
 input[type="button"] {
 	display: inline-block;
-	font-family: "raleway-bold", sans-serif;
+	font-family: sans-serif;
 	font-size: 1.6rem;
 	height: 5rem;
 	line-height: 5rem;
@@ -733,7 +735,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 	position: relative;
 }
 .section-intro h1 {
-	font-family: "merriweather-bold", serif;
+	font-family: serif;
 	font-size: 4.8rem;
 	color: #252525;
 	line-height: 1.25;
@@ -922,7 +924,7 @@ a.menu-toggle {
 
 /* main-nav-wrap */
 #main-nav-wrap {
-	font-family: "raleway-heavy", sans-serif;
+	font-family: sans-serif;
 	font-size: 11.5px;
 	text-transform: uppercase;
 	letter-spacing: 1.5px;
@@ -1216,7 +1218,7 @@ a.menu-toggle {
 }
 .intro-content h5 {
 	color: rgba(255, 255, 255, 0.6);
-	font-family: "raleway-heavy", sans-serif;
+	font-family: sans-serif;
 	font-size: 1.8rem;
 	line-height: 1.667;
 	margin-bottom: 0.6rem;
@@ -1237,7 +1239,7 @@ a.menu-toggle {
 	line-height: 6rem;
 	padding: 0 3rem !important;
 	margin-top: 1.8rem;
-	font-family: "raleway-heavy", sans-serif;
+	font-family: sans-serif;
 	font-size: 1.4rem;
 	text-transform: uppercase;
 	letter-spacing: .4rem;
@@ -1478,8 +1480,7 @@ a.menu-toggle {
 .about-content .item[data-item]::before {
 	background: #38424e;
 	color: #FFFFFF;
-	border-radius: 100%;
-	/* font-family: "montserrat-bold", sans-serif; */
+	border-radius: 100%;	
 	content: attr(data-item);
 	display: inline-block;
 	font-size: 18px;
@@ -1497,7 +1498,7 @@ a.menu-toggle {
 	font-weight: 750;
 	letter-spacing: .1rem;
 	margin-bottom: .3rem;
-	font-family: "raleway-heavy", sans-serif; 
+	font-family: sans-serif; 
 }
 
 /**
@@ -1612,7 +1613,11 @@ a.menu-toggle {
 	font-weight: 750;
 	letter-spacing: .1rem;
 	margin-bottom: .3rem;
-	font-family: "raleway-heavy", sans-serif;
+	font-family: sans-serif;
+}
+
+.features li{
+	line-height: 22px
 }
 
 
@@ -1703,7 +1708,7 @@ a.menu-toggle {
 	margin-left: -40px;
 }
 .pricing-content .price-block .plan-price {
-	font-family: "raleway-bold", sans-serif;
+	font-family: sans-serif;
 	font-size: 5rem;
 	line-height: 1;
 	margin-bottom: .6rem;
@@ -1715,7 +1720,7 @@ a.menu-toggle {
 }
 .pricing-content .price-block .price-month {
 	margin-bottom: 1.2rem;
-	font-family: "raleway-bold", sans-serif;
+	font-family: sans-serif;
 	font-size: 1.6rem;
 }
 .pricing-content .price-block .price-meta {
@@ -1735,7 +1740,7 @@ a.menu-toggle {
 }
 .pricing-content .price-block .features {
 	list-style: none;
-	font-family: "raleway-bold", sans-serif;
+	font-family: sans-serif;
 	font-size: 1.5rem;
 	color: black;
 	margin: .6rem 0 1.8rem 0;	
@@ -1748,7 +1753,7 @@ a.menu-toggle {
 		}
 .pricing-content .price-block .features li strong {
 	color: #353F49;
-	font-family: "raleway-bold", serif;
+	font-family: sans-serif;
 	margin-right: 5px;
 }
 .pricing-content .price-block .features li:last-child {
@@ -1766,7 +1771,7 @@ a.menu-toggle {
 	text-align: center;
 	color: #FFFFFF;
 	background: #38424e;
-	font-family: "raleway-heavy", sans-serif;
+	font-family: sans-serif;
 	font-size: 1.2rem;
 	text-transform: uppercase;
 	letter-spacing: .15rem;
@@ -1856,7 +1861,7 @@ a.menu-toggle {
 	position: relative;
 }
 #testimonial-slider p {
-	font-family: "raleway-medium", sans-serif;
+	font-family: sans-serif;
 	font-size: 2.5rem;
 	line-height: 1.8;
 	color: #8d8d8d;
@@ -1899,7 +1904,7 @@ a.menu-toggle {
 	display: inline-block;
 	vertical-align: middle;
 	text-align: center;
-	font-family: "raleway-bold", sans-serif;
+	font-family: sans-serif;
 	font-size: 1.9rem;	 
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -1908,7 +1913,7 @@ a.menu-toggle {
 }
 #testimonial-slider .testimonial-author .author-info span {
 	display: block;
-	font-family: "raleway-semibold", sans-serif;
+	font-family: sans-serif;
 	font-size: 1.4rem;
 	line-height: 2.1rem;
 	letter-spacing: 0;
@@ -1920,7 +1925,7 @@ a.menu-toggle {
 	display: inline-block;
 	vertical-align: middle;
 	text-align: center;
-	font-family: "raleway-bold", sans-serif;
+	font-family: sans-serif;
 	font-size: 1.9rem;	 
 	letter-spacing: 2px;
 	text-transform: uppercase;
@@ -1929,7 +1934,7 @@ a.menu-toggle {
 }
 #testimonial-slider .testimonial-author-vert .author-info span {
 	display: block;
-	font-family: "raleway-semibold", sans-serif;
+	font-family: sans-serif;
 	font-size: 1.4rem;
 	line-height: 2.1rem;
 	letter-spacing: 0;
@@ -2240,7 +2245,7 @@ footer {
 	padding-bottom: 3rem;
 	font-size: 1.5rem;
 	line-height: 2.7rem;
-	font-family: "raleway-medium", sans-serif;
+	font-family: sans-serif;
 	color: #465166;
 }
 footer a, footer a:visited {
